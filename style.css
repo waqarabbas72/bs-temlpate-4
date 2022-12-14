@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=La+Belle+Aurore&family=Rubik+Gemstones&family=Satisfy&display=swap');
+
+/*--------------------------------------- BY DEFAULT CHANGES ------------------------------ */
+nav{
+    background-color: rgba(7, 73, 93, 0.749);
+}
+#navbar-brand{
+    font-family:'Satisfy', cursive;
+    font-size: 50px;
+}
+
+#offcanvasNavbar2Label{
+    font-family: 'Satisfy',cursive;
+}
+
+#top-icons{
+    font-size: 50px;
+}
+
+.nav-item:hover{
+    background-color: rgb(0, 148, 222);
+}
+
+#client-success{
+    background-color: rgb(233, 233, 233);
+}
+
+#middle-icons{
+    font-size: 50px;
+}
+
+#sec-3{
+  background-color: rgb(210, 210, 210);
+}
+
+#cards{
+    padding: 0 30px;
+}
+
+#hanging-icons{
+    background-color: rgb(240, 239, 239);
+}
+
+#footer{
+    background-color: rgb(88, 107, 123);
+}
+
+/*------------------------------------------ FOR RESPONSIVE DESIGN ------------------------------- */
+@media (min-width:992px) {
+    #navbar{
+        padding:0 100px;
+    }
+    
+}
+
+@media (min-width:768px) {
+    #cards{
+        padding: 0 150px;
+    }
+}
